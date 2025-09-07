@@ -1,4 +1,4 @@
-package com.gmail.umarosman77.Utilities;
+package com.gmail.umarosman77.utilities;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
