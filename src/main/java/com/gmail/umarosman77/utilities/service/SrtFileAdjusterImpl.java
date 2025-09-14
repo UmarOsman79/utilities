@@ -37,7 +37,7 @@ public class SrtFileAdjusterImpl implements SrtFileAdjuster {
 				}
 				if (lineCount == 4) {
 					reader.readLine();
-					subtitleTime = moveSubtitleTime(subtitleTime, operator, moveValue);
+					subtitleTime = updateSubtitleTime(subtitleTime, operator, moveValue);
 					writeToResponseFile(subtitleNumber, subtitleTime, subtitleValue);
 					lineCount = 0;
 				}
@@ -52,7 +52,7 @@ public class SrtFileAdjusterImpl implements SrtFileAdjuster {
 
 	}
 
-	private String moveSubtitleTime(String subtitleTime, String operator, int moveValue) {
+	private String updateSubtitleTime(String subtitleTime, String operator, int moveValue) {
 		return StringUtils.equals(Constants.PLUS_OPERATOR, operator) ? moveValuePlus(subtitleTime, moveValue) : moveValueMinus(subtitleTime, moveValue);
 	}
 
