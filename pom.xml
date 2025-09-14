@@ -11,26 +11,27 @@
 	<groupId>com.gmail.umarosman77</groupId>
 	<artifactId>Utilities</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>Utilities</name>
 	<description>Utilities</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
+
 	<developers>
 		<developer/>
 	</developers>
+
 	<scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
 		<url/>
 	</scm>
+
 	<properties>
 		<java.version>17</java.version>
 		<spring-ai.version>1.0.1</spring-ai.version>
 		<spring-boot-admin.version>3.5.0</spring-boot-admin.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
